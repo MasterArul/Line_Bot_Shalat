@@ -1,7 +1,7 @@
 <?php
 /*
 copyright @ medantechno.com
-Modified @ Farzain - zFz
+Modified @ MasterArul
 2017
 
 */
@@ -9,8 +9,8 @@ Modified @ Farzain - zFz
 require_once('./line_class.php');
 require_once('./unirest-php-master/src/Unirest.php');
 
-$channelAccessToken = 'YOUR-CHANNEL-ACCESS-TOKEN'; //sesuaikan 
-$channelSecret = 'YOUR-CHANNEL-SECRET-CODE';//sesuaikan
+$channelAccessToken = 'zwjBN+MUjIcpA2qzIt0KmbGFIjyHA7uGrWuF7VvIaj39xo/n101uz9dJOPAOL/vRQv9SrMglW/BFRZmamosRGc+9jFFDA9eA8SaTeNfb1NScyehXCuCStT1TM7tr7mwY9ESCQIgfCmFMYoHXFUq+TgdB04t89/1O/w1cDnyilFU='; //sesuaikan 
+$channelSecret = 'd4fcfbd81518d1f448f9d6641cdb813e';//sesuaikan
 
 $client = new LINEBotTiny($channelAccessToken, $channelSecret);
 
